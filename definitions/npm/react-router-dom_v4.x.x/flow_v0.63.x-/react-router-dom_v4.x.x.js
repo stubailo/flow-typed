@@ -39,7 +39,7 @@ declare module "react-router-dom" {
   // update the react-router and react-router-native types as well.
   declare export type Location = {
     pathname: string,
-    search: string,
+    search?: string,
     hash: string,
     state?: any,
     key?: string
